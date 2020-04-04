@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageA"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imageB"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imageC"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imageD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="140dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="wrap content"
+            android:layout_height="wrap content"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/imageE"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imageF"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="140dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imageG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="140dp"
+            android:contentDescription="@string/todo"
+            android:marginLeft="20dp"
+            android:marginTop="20dp"
+            android:marginBottom="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
